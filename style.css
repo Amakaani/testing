@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+}
+
+.myh1 {
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+
+#heading {
+    padding: 20px;
+}
+
+ul li {
+    background-color: tomato;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+ul li span {
+    color: white;
+}
+ul li:nth-child(2) {
+background-color: orange;
+} 
+
+ul li:last-child {
+    background-color: aquamarine;
+}
+
+ul li:nth-of-type(odd) {
+    background-color: brown;
+}
+
+* {
+    /* background-color: red; */
+    font-family: cursive;
+}
+
+ul li:hover {
+    background-color: cyan;
+    color: white;
+    text-decoration: underline;
+    box-shadow: 0px 0px 15px darkgreen;
+}   
+
+input:focus {
+    padding: 10px 20px;
+    outline: none;
+    border: 2px dashed turquoise;
+}
+
+p, button {
+    padding: 10px;
+    background-color: bisque;
+}
